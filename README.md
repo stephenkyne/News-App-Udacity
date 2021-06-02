@@ -11,7 +11,7 @@ Article Information displayed;
 - Date and Time of the article was publised. 
 
 There are currently no known errors. __Known issues__ are listed below.
-Completed on Monday the 10th - May - 2021
+Completed on Monday the 31st - May - 2021
 ### Built with ###
 - Android SDK 4.1.3
 - API 21+
