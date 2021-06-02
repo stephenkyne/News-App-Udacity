@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:background="#d3d3d3">
+
+    <!--
+        Styles used are children of base_style where height, padding and fontFamily are set.
+    -->
+    <!--  Article Title -->
+   <TextView
+       style="@style/title_style"
+       android:id="@+id/title_text_view"
+       tools:text="The title of the article"/>
+    <!--  Article summary / trailText -->
+   <TextView
+       style="@style/summary_text_style"
+       android:id="@+id/summary_text_vew"
+       tools:text="The Summary of the article"/>
+    <!--  Layout for section, author and date
+            section color is applied here in code
+     -->
+   <RelativeLayout
+       android:id="@+id/layout_section_date_author"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <!--  Article Section -->
+       <TextView
+           style="@style/section_text_style"
+           android:id="@+id/section_text_view"
+           android:layout_centerVertical="true"
+           tools:text="Section"
+           android:textSize="16sp"
+           android:textStyle="bold"/>
+       <!--  Article author -->
+       <TextView
+           style="@style/section_text_style"
+           android:id="@+id/author_text_view"
+           android:gravity="end"
+           android:layout_alignParentEnd="true"
+           tools:text="The Author"/>
+       <!--  Article date and time of web publishing -->
+       <TextView
+           style="@style/section_text_style"
+           android:id="@+id/date_text_view"
+           android:gravity="end"
+           android:layout_alignParentEnd="true"
+           android:layout_below="@+id/author_text_view"
+           tools:text="May 30, 2021 1:00pm"/>
+   </RelativeLayout>
+
+</LinearLayout>

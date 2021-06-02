@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">News App</string>
+
+    <!-- List of sections that are displayed. NOT used in JSON -->
+    <string name="section_world_news">World news</string>
+    <string name="section_us_news">US news</string>
+    <string name="section_australia_news">Australia news</string>
+    <!-- Science sections -->
+    <string name="section_science">Science</string>
+    <string name="section_technology_news">Technology</string>
+    <!-- Sports sections -->
+    <string name="section_sport_news">Sport</string>
+    <string name="section_rugby_union">Rugby union</string>
+    <string name="section_cricket">Cricket</string>
+    <string name="section_f1">F1</string>
+    <string name="section_boxing">Boxing</string>
+    <string name="section_golf">Golf</string>
+    <string name="section_football">Football</string>
+
+    <!-- Environment sections -->
+    <string name="section_environment">Environment</string>
+
+    <!-- Society sections -->
+    <string name="section_society">Society</string>
+
+    <!-- Fashion sections -->
+    <string name="section_fashion">Fashion</string>
+
+    <!-- Business sections -->
+    <string name="section_business">Business</string>
+
+    <!-- Culture sections -->
+    <string name="section_culture">Culture</string>
+    <string name="section_film">Film</string>
+    <string name="section_stage">Stage</string>
+    <string name="section_life_and_style">Life and style</string>
+    <string name="section_books">Books</string>
+    <string name="section_music">Music</string>
+    <string name="section_television_radio">Television &amp; radio</string>
+    <string name="section_art_design">Art and design</string>
+    <string name="section_media">Media</string>
+    <string name="section_games">Games</string>
+
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_articles">Sorry, No articles found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Missing Text in articles -->
+    <!-- No author found -->
+    <string name="unknown_author">Author missing</string>
+    <string name="unknown_Section">Section Unknown</string>
+    <string name="unknown_summary">Summary Missing</string>
+    <string name="unknown_title">Title Missing</string>
+    <string name="unknown_date">Date Missing</string>
+
+    <!-- Menus area -->
+    <!-- Menus display text -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- Number of articles to display, used in JSON, is number -->
+    <string name="settings_number_articles_label">Number of Articles to display</string>
+    <string name="settings_number_articles_key" translatable="false">page-size</string>
+    <string name="settings_number_articles_default" translatable="false">10</string>
+
+    <!-- Order by, used in JSON, is number -->
+    <string name="settings_order_by_label">Order by</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">newest</string>
+
+    <!-- Order by, "Newest", used in JSON, is number -->
+    <string name="settings_order_newest_label">Newest</string>
+    <string name="settings_order_newest_value" translatable="false">newest</string>
+    <!-- Order by, "Oldest",used in JSON, is number -->
+    <string name="settings_order_oldest_label">Oldest</string>
+    <string name="settings_order_oldest_value" translatable="false">oldest</string>
+
+    <!-- Strings For Selecting a section / news feed-->
+    <!-- title and defaults set -->
+    <string name="settings_select_feed_label">Select Section Feed</string>
+    <string name="settings_select_feed_key" translatable="false">section</string>
+    <string name="settings_select_feed_default" translatable="false">@string/settings_main_feed_value</string>
+
+    <!-- search default section, used in JSON  -->
+    <string name="settings_main_feed_label">Main News</string>
+    <string name="settings_main_feed_value" translatable="false">search</string>
+
+    <!-- search World News section, used in JSON  -->
+    <string name="settings_world_feed_label">World News</string>
+    <string name="settings_world_feed_value" translatable="false">world</string>
+
+    <!-- search Science section, used in JSON  -->
+    <string name="settings_science_feed_label">Science</string>
+    <string name="settings_science_feed_value" translatable="false">science</string>
+
+    <!-- search Sport section, used in JSON  -->
+    <string name="settings_sport_feed_label">Sport</string>
+    <string name="settings_sport_feed_value" translatable="false">sport</string>
+
+    <!-- search Environment section, used in JSON  -->
+    <string name="settings_environment_feed_label">Environment</string>
+    <string name="settings_environment_feed_value" translatable="false">environment</string>
+
+    <!-- search Society section, used in JSON  -->
+    <string name="settings_society_feed_label">Society</string>
+    <string name="settings_society_feed_value" translatable="false">society</string>
+
+    <!-- search World News section, used in JSON  -->
+    <string name="settings_fashion_feed_label">Fashion</string>
+    <string name="settings_fashion_feed_value" translatable="false">fashion</string>
+
+    <!-- search Business section, used in JSON  -->
+    <string name="settings_business_feed_label">Business</string>
+    <string name="settings_business_feed_value" translatable="false">business</string>
+
+    <!-- search Culture section, used in JSON  -->
+    <string name="settings_culture_feed_label">Culture</string>
+    <string name="settings_culture_feed_value" translatable="false">culture</string>
+
+</resources>

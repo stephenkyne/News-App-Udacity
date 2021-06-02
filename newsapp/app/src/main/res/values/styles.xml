@@ -1,0 +1,62 @@
+<resources>
+    <!-- Styles for list items -->
+
+    <!-- Style Parent used by all article_list_xml items -->
+    <style name="base_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <!-- Styles child of base_style, for Article Title -->
+    <style name="title_style" parent="base_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#005689</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Styles child of base_style, for Section TextViews -->
+    <style name="summary_text_style" parent="base_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">4</item>
+    </style>
+
+    <!-- Styles child of base_style, for Section TextViews -->
+    <style name="section_text_style" parent="base_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Styles child of base_style, for Section TextViews -->
+    <style name="empty_text_vew_style" parent="base_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Styles basic style for text in the list -->
+    <style name="lis_items">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Styles basic style for text in the list -->
+    <style name="section_date_layout">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+</resources>

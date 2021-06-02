@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <!-- Number of Article to be displayed, must be a number Used in JSON   -->
+    <EditTextPreference
+        android:defaultValue="@string/settings_number_articles_default"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_number_articles_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_number_articles_label" />
+
+    <!-- Order to be displayed, newest or oldest Used in JSON   -->
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label" />
+
+    <!-- Section or feed to get articles  -->
+    <ListPreference
+        android:defaultValue="@string/settings_main_feed_value"
+        android:entries="@array/settings_news_feed_labels"
+        android:entryValues="@array/settings_news_feed_values"
+        android:key="@string/settings_select_feed_key"
+        android:title="@string/settings_select_feed_label" />
+
+</PreferenceScreen>

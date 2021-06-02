@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array used to select the feed / news section used in JSON search-->
+    <!-- labels -->
+    <string-array name="settings_news_feed_labels">
+        <item>@string/settings_main_feed_label</item>
+        <item>@string/settings_world_feed_label</item>
+        <item>@string/settings_science_feed_label</item>
+        <item>@string/settings_sport_feed_label</item>
+        <item>@string/settings_environment_feed_label</item>
+        <item>@string/settings_society_feed_label</item>
+        <item>@string/settings_fashion_feed_label</item>
+        <item>@string/settings_business_feed_label</item>
+        <item>@string/settings_culture_feed_label</item>
+    </string-array>
+    <!-- values -->
+    <string-array name="settings_news_feed_values">
+        <item>@string/settings_main_feed_value</item>
+        <item>@string/settings_world_feed_value</item>
+        <item>@string/settings_science_feed_value</item>
+        <item>@string/settings_sport_feed_value</item>
+        <item>@string/settings_environment_feed_value</item>
+        <item>@string/settings_society_feed_value</item>
+        <item>@string/settings_fashion_feed_value</item>
+        <item>@string/settings_business_feed_value</item>
+        <item>@string/settings_culture_feed_value</item>
+    </string-array>
+
+    <!-- Array used to select the order by section used in JSON search -->
+    <!-- labels -->
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_newest_label</item>
+        <item>@string/settings_order_oldest_label</item>
+    </string-array>
+    <!-- values -->
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_newest_value</item>
+        <item>@string/settings_order_oldest_value</item>
+    </string-array>
+
+</resources>
